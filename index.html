@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>За нас</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-900 min-h-screen flex flex-col">
+  <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v23.0"></script>
+  <header class="p-4 bg-white shadow flex justify-between items-center">
+    <h1 class="text-2xl font-semibold">За нас</h1>
+    <nav>
+      <a href="index.html" class="text-blue-600 font-semibold mr-4 underline">За нас</a>
+      <a href="gallery.html" class="text-blue-600 font-semibold hover:underline">Проекти</a>
+    </nav>
+  </header>
+
+  <main class="flex-grow container mx-auto px-4 py-8 max-w-96">
+    <section class="flex flex-col md:flex-row items-center md:items-start gap-8">
+      <div class="md:flex-1 max-w-md">
+        <img
+          src="images/about-photo.jpg"
+          alt="Woodworker at work"
+          class="rounded-lg shadow-lg w-full object-cover"
+          loading="lazy"
+        />
+      </div>
+      <!-- Text section -->
+      <div class="md:flex-1">
+        <h2 class="text-3xl font-bold mb-4">За нас</h2>
+        <p class="mb-4">
+          Изработване на персонализирани лазерно изрязани и гравирани изделия от шпертплат и масив,снимки върху дърво и други
+        </p>
+        <p>
+          <h4 class="text-xl font-semibold mb-2">Услуги:</h4>
+                <ul>
+        <li>CNC рутер</li>
+        <li>Kриволинейно рязане</li>
+        <li>Надписи със релефни и вдлъбнати букви</li>
+        <li>3D картини.Работи с масив</li>
+        <li>Разпенено пвц</li>
+        <li>Еталбонд и др.</li>
+        <p class="text-xl font-semibold mb-2">Размер на обработваемата площ 60см-90см.</p>
+      </ul>
+        </p>
+      </div>
+        <div class="mt-8">
+          <h3 class="text-xl font-semibold mb-2">Свържи се с нас:</h3>
+          <div class="flex space-x-4">
+            <a href="tel:+359885898965" target="_blank" rel="noopener" class="text-blue-600 hover:underline text-xl">0885898965</a>
+            <a href="tel:+359896313918" target="_blank" rel="noopener" class="text-blue-600 hover:underline text-xl">0896313918</a>
+          </div>
+          <div class="fb-page" data-href="https://www.facebook.com/profile.php?id=61567914572927" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/profile.php?id=61567914572927" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/profile.php?id=61567914572927">MM design</a></blockquote></div>
+          <h3 class="text-xl font-semibold mb-2">Адрес:</h3>
+          <div class="flex space-x-4">
+			Област Стара Загора, с. Хрищени, ул. Свобода Nº41
+          </div>
+		  	<div class="flex space-x-4">	
+			<iframe src="https://www.google.com/maps/embed?pb=!3m2!1sen!2sbg!4v1749310996860!5m2!1sen!2sbg!6m8!1m7!1sDQE2BMwdhm_gcXdmRT8Ifw!2m2!1d42.45858510702645!2d25.70872370902368!3f281.31390578086484!4f8.868228827902414!5f0.7820865974627469" width="100%" height="225" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</div>
+
+        </div>  
+    </section>
+  </main>
+
+  <footer class="p-4 bg-white text-center text-sm text-gray-500">
+    &copy; 2025 Woodworker Portfolio
+  </footer>
+</body>
+</html>
