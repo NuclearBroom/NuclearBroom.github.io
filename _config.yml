@@ -1,0 +1,19 @@
+title: "MMDesign BG"
+description: "Interior design and consulting company based in Bulgaria"
+baseurl: "" # leave empty for root domain
+url: "https://mmdesign-bg.eu"
+
+# Enable sitemap plugin
+plugins:
+  - jekyll-sitemap
+
+# GitHub Pages allows only certain safe plugins
+# Don't forget to include this line to avoid plugin warnings
+github:
+  is_project_page: false
+
+# Optional: exclude files/folders from the site build
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
