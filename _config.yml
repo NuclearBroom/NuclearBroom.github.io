@@ -1,11 +1,7 @@
 title: "MMDesign BG"
 description: "Interior design and consulting company based in Bulgaria"
 baseurl: "" # leave empty for root domain
-url: "https://mmdesign-bg.eu"
-
-# Enable sitemap plugin
-plugins:
-  - jekyll-sitemap
+url: "http://mmdesign-bg.eu"
 
 # GitHub Pages allows only certain safe plugins
 # Don't forget to include this line to avoid plugin warnings
